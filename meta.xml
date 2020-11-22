@@ -1,14 +1,12 @@
-<LemiProject>
-   <Hacks>
-      <method>2</method>
-      <name>LemiCSGO</name>
-      <url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</url>
-      <version>pre Alpha</version>
-   </Hacks>
-   <Hacks>
-      <method>1</method>
-      <name>LemiGMOD</name>
-      <url>https://github.com/Sanceilaks/GmodHackBySl/raw/master/LemiGMOD.dll</url>
-      <version>Beta</version>
-   </Hacks>
-</LemiProject>
+<Hacks>
+   <method>2</method>
+   <name>LemiCSGO</name>
+   <url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</url>
+   <version>pre Alpha</version>
+</Hacks>
+<Hacks>
+   <method>1</method>
+   <name>LemiGMOD</name>
+   <url>https://github.com/Sanceilaks/GmodHackBySl/raw/master/LemiGMOD.dll</url>
+   <version>Beta</version>
+</Hacks>
