@@ -1,2 +1,2 @@
 # LemiProject
-Files for free LemiCSGO hack
+Files for free LemiProject hacks
