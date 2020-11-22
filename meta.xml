@@ -1,10 +1,10 @@
-<Hacks>
+<Hack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
    <method>2</method>
    <name>LemiCSGO</name>
    <url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</url>
    <version>pre Alpha</version>
 </Hacks>
-<Hacks>
+<Hack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
    <method>1</method>
    <name>LemiGMOD</name>
    <url>https://github.com/Sanceilaks/GmodHackBySl/raw/master/LemiGMOD.dll</url>
