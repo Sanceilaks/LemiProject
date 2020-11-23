@@ -14,4 +14,11 @@
     <DevlogUrl>https://pastebin.com/raw/Er6Cvnn9</DevlogUrl>
     <Version>beta</Version>
   </Hack>
+  <Hack>
+    <Method>1</Method>
+    <Name>MaratHack</Name>
+    <Url>https://github.com/Sanceilaks/GmodHackBySl/raw/master/LemiGMOD.dll</Url>
+    <DevlogUrl>https://pastebin.com/raw/Er6Cvnn9</DevlogUrl>
+    <Version>beta</Version>
+  </Hack>
 </ArrayOfHack>
