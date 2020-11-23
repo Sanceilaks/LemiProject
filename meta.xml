@@ -5,6 +5,7 @@
     <Name>LemiCSGO</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</Url>
     <DevlogUrl>https://pastebin.com/raw/czR7wXsj</DevlogUrl>
+    <GameProcess>csgo.exe</GameProcess>
     <Version>alpha</Version>
   </Hack>
   <Hack>
@@ -12,6 +13,7 @@
     <Name>LemiGMOD</Name>
     <Url>https://github.com/Sanceilaks/GmodHackBySl/raw/master/LemiGMOD.dll</Url>
     <DevlogUrl>https://pastebin.com/raw/Er6Cvnn9</DevlogUrl>
+    <GameProcess>hl2.exe</GameProcess>
     <Version>beta</Version>
   </Hack>
 </ArrayOfHack>
