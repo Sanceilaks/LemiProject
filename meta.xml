@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ArrayOfHack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Hack>
-    <Method>2</Method>
+    <Method>4</Method>
     <Name>LemiCSGO</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</Url>
     <DevlogUrl>https://pastebin.com/raw/czR7wXsj</DevlogUrl>
