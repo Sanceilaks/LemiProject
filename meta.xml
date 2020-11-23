@@ -4,12 +4,14 @@
     <Method>2</Method>
     <Name>LemiCSGO</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</Url>
+    <DevlogUrl>https://pastebin.com/raw/czR7wXsj</DevlogUrl>
     <Version>alpha</Version>
   </Hack>
   <Hack>
     <Method>1</Method>
     <Name>LemiGMOD</Name>
     <Url>https://github.com/Sanceilaks/GmodHackBySl/raw/master/LemiGMOD.dll</Url>
+    <DevlogUrl>https://pastebin.com/raw/Er6Cvnn9</DevlogUrl>
     <Version>beta</Version>
   </Hack>
 </ArrayOfHack>
