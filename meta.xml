@@ -16,4 +16,12 @@
     <GameProcess>hl2.exe</GameProcess>
     <Version>beta</Version>
   </Hack>
+    <Hack>
+    <Method>1</Method>
+    <Name>OTCv3</Name>
+    <Url>https://github.com/Sanceilaks/LemiProject/raw/main/otv3.dll</Url>
+    <DevlogUrl>https://pastebin.com/raw/b96TrSLb</DevlogUrl>
+    <GameProcess>csgo.exe</GameProcess>
+    <Version>1.0</Version>
+  </Hack>
 </ArrayOfHack>
