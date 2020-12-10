@@ -30,6 +30,7 @@ function titlebar(val) {
             timer = window.setTimeout("titlebar(" + pos + ")", speed);
         } else {
             rev = "fwd";
+            document.title = " ";
             timer = window.setTimeout("titlebar(" + pos + ")", speed);
         }
     }
