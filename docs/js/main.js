@@ -7,10 +7,6 @@ function titlebar(val) {
     var pos = val;
 
     var le = msg.length;
-    if (pos == 0) {
-        document.title = "";
-    }
-    
     if (rev == "fwd") {
         if (pos < le) {
             pos = pos + 1;
