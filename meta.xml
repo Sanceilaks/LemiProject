@@ -11,7 +11,7 @@
   <Hack>
     <Method>1</Method>
     <Name>LemiGMOD</Name>
-    <Url>https://github.com/Sanceilaks/GmodHackBySl/raw/master/LemiGMOD.dll</Url>
+    <Url>https://github.com/Sanceilaks/LemiProject/raw/main/lemi_gmod_revolution.dll</Url>
     <DevlogUrl>https://pastebin.com/raw/Er6Cvnn9</DevlogUrl>
     <GameProcess>hl2.exe</GameProcess>
     <Version>beta</Version>
