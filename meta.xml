@@ -10,6 +10,14 @@
   </Hack>
   <Hack>
     <Method>1</Method>
+    <Name>Glua loader x64</Name>
+    <Url>https://github.com/Sanceilaks/LemiProject/raw/main/lemi_lua_loader.dll</Url>
+    <DevlogUrl>none</DevlogUrl>
+    <GameProcess>hl2.exe</GameProcess>
+    <Version>1.0</Version>
+  </Hack>
+  <Hack>
+    <Method>1</Method>
     <Name>LemiCSGO</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</Url>
     <DevlogUrl>https://pastebin.com/raw/czR7wXsj</DevlogUrl>
