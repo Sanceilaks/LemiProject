@@ -32,4 +32,20 @@
     <GameProcess>csgo.exe</GameProcess>
     <Version>1.0</Version>
   </Hack>
+  <Hack>
+    <Method>1</Method>
+    <Name>OTCv2</Name>
+    <Url>https://github.com/Sanceilaks/LemiProject/raw/main/otcv2.dll</Url>
+    <DevlogUrl>https://pastebin.com/raw/b96TrSLb</DevlogUrl>
+    <GameProcess>csgo.exe</GameProcess>
+    <Version>1.0</Version>
+  </Hack>
+  <Hack>
+    <Method>1</Method>
+    <Name>Pandora</Name>
+    <Url>https://github.com/Sanceilaks/LemiProject/raw/main/pandora.dll</Url>
+    <DevlogUrl>https://pastebin.com/raw/b96TrSLb</DevlogUrl>
+    <GameProcess>csgo.exe</GameProcess>
+    <Version>1.0</Version>
+  </Hack>
 </ArrayOfHack>
