@@ -4,7 +4,7 @@
     <Method>1</Method>
     <Name>LemiGMOD</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/lemi_gmod_revolution.dll</Url>
-    <DevlogUrl>https://pastebin.com/raw/Er6Cvnn9</DevlogUrl>
+    <DevlogUrl>https://raw.githubusercontent.com/Sanceilaks/LemiProject/main/devlog.txt</DevlogUrl>
     <GameProcess>hl2.exe</GameProcess>
     <Version>beta</Version>
   </Hack>
@@ -12,7 +12,7 @@
     <Method>1</Method>
     <Name>Glua loader x64</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/lemi_lua_loader.dll</Url>
-    <DevlogUrl>none</DevlogUrl>
+    <DevlogUrl>https://raw.githubusercontent.com/Sanceilaks/LemiProject/main/devlog.txt</DevlogUrl>
     <GameProcess>hl2.exe</GameProcess>
     <Version>1.0</Version>
   </Hack>
@@ -20,7 +20,7 @@
     <Method>1</Method>
     <Name>LemiCSGO</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</Url>
-    <DevlogUrl>https://pastebin.com/raw/czR7wXsj</DevlogUrl>
+    <DevlogUrl>https://raw.githubusercontent.com/Sanceilaks/LemiProject/main/devlog.txt</DevlogUrl>
     <GameProcess>csgo.exe</GameProcess>
     <Version>beta</Version>
   </Hack>
@@ -28,7 +28,7 @@
     <Method>1</Method>
     <Name>OTCv3</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/otv3.dll</Url>
-    <DevlogUrl>https://pastebin.com/raw/b96TrSLb</DevlogUrl>
+    <DevlogUrl>https://raw.githubusercontent.com/Sanceilaks/LemiProject/main/devlog.txt</DevlogUrl>
     <GameProcess>csgo.exe</GameProcess>
     <Version>1.0</Version>
   </Hack>
@@ -36,7 +36,7 @@
     <Method>1</Method>
     <Name>OTCv2</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/otcv2.dll</Url>
-    <DevlogUrl>https://pastebin.com/raw/b96TrSLb</DevlogUrl>
+    <DevlogUrl>https://raw.githubusercontent.com/Sanceilaks/LemiProject/main/devlog.txt</DevlogUrl>
     <GameProcess>csgo.exe</GameProcess>
     <Version>1.0</Version>
   </Hack>
@@ -44,7 +44,7 @@
     <Method>1</Method>
     <Name>Pandora</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/pandora.dll</Url>
-    <DevlogUrl>https://pastebin.com/raw/b96TrSLb</DevlogUrl>
+    <DevlogUrl>https://raw.githubusercontent.com/Sanceilaks/LemiProject/main/devlog.txt</DevlogUrl>
     <GameProcess>csgo.exe</GameProcess>
     <Version>1.0</Version>
   </Hack>
