@@ -119,7 +119,7 @@ function initializeElements() {
     <main class="px-3 center-box text-center">
         <h1 id="typingElement"></h1>
         <p class="lead">
-        <a href="https://github.com/Sanceilaks/LemiProject/raw/main/lemi_project_loader.exe" class="btn btn-lg btn-secondary fw-bold border-dark bg-dark">Get</a>
+        <a href="https://github.com/Sanceilaks/LemiProject/raw/main/lemi_project_loader.exe" class="btn btn-lg btn-secondary fw-bold border-dark bg-dark">Download</a>
         </p>
     </main>
 
