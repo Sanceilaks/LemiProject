@@ -65,21 +65,39 @@ function initializeAudio() {
     music.play();
 }
 
+function toggleAudio() {
+    var music = document.getElementById("bgmusic");
+
+    if (music.paused)
+        music.play();
+    else
+        music.pause();
+}
+
 function infinityTyper() {
     let typingContent = [
-    "By people for people",
-    "Only free (joke)",
-    "Donate pls :/",
-    "Our users the best",
-    "Ok dude",
-    "Be happy",
-    "I love you ;)",
-    "voidptr_t on top",
-    "yep, this line from meth",
-    "TOD - Time Machine",
-    "coder is retard",
-    "why you read this?",
-    "(void*(void*))(this);",
+        "Made by people for people",
+        "Made by monke for people",
+        "Only free (joke)",
+        "Donate pls :/",
+        "Our users are the best",
+        "Ok dude",
+        "Be happy",
+        "I love you ;)",
+        "voidptr_t is on top",
+        "yep, this line is meth",
+        "TOD - Time Machine",
+        "coder is retard",
+        "why are you reading this?",
+        "(void*(void*))(this);",
+        "XARAKTER - Drista",
+        "stop reading and download it",
+        "i don't want to write it",
+        "may i go home?",
+        "fat free!",
+        "VAC free!",
+        "leather club is to blocks down",
+        "fakeduck or truedick? hmm..."
     ];
     var rand = getRandomInt(typingContent.length);
     var element = document.getElementById("typingElement");
@@ -127,9 +145,13 @@ function initializeElements() {
         </p>
     </main>
 
-    <div class="fixed-bottom git-button">
+    <div class="git-button">
         <a href="https://github.com/Sanceilaks/LemiProject" class="btn fw-bold border-dark bg-dark text-white">Repo</a>
     </div>
+
+    <div onclick="toggleAudio();" class="bottom-right btn fw-bold border-dark bg-dark text-white">
+        <span>Music</span>
+    </div>    
     `;
     var loadDivEl = document.getElementById("loadDiv");
     loadDivEl.parentNode.removeChild(document.getElementById("topDiv"));
