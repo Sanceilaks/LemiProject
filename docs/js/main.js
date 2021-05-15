@@ -64,13 +64,13 @@ function initializeAudio() {
     music.volume = 0.005;
     music.play();
 }
-
+//Ты заебал (тут ошибки)
 function infinityTyper() {
     let typingContent = [
     "By people for people",
     "Only free (joke)",
     "Donate pls :/",
-    "Our users the best",
+    "Our users are the best",
     "Ok dude",
     "Be happy",
     "I love you ;)",
@@ -78,7 +78,7 @@ function infinityTyper() {
     "yep, this line from meth",
     "TOD - Time Machine",
     "coder is retard",
-    "why you read this?",
+    "why are you reading this?",
     "(void*(void*))(this);",
     ];
     var rand = getRandomInt(typingContent.length);
