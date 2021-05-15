@@ -42,33 +42,3 @@ img {
 .git-button {
     margin: 10px;
 }
-h1.typing {
-  border-right: solid 3px rgba(0,255,0);
-  white-space: nowrap;
-  overflow: hidden;    
-  font-size: 28px;
-  color: rgba(255,255,255);
-  margin: 10 auto;
-
-}
-h1.typing
-{
-  animation: animated-text 3s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-}
-
-/* Animation */
-
-/* text animation */
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 500px;}
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0);}
-  to{border-right-color: transparent;}
-}
