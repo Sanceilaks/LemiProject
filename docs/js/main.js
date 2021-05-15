@@ -64,7 +64,7 @@ function infinityTyper() {
     "By people for people",
     "Only free (joke)",
     "Donate pls :/",
-    "Our users are best",
+    "Our users are the best",
     "Ok dude",
     "Be happy (•ω•)",
     "I love you ;)",
