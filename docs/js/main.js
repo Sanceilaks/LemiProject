@@ -16,46 +16,52 @@ function initializeBackground() {
     })
 }
 
-function initializeTitle() {
-    var rev = "fwd";
+function initializeTitle(animation_speed) {
+    let _original_title = document.title;
+    var _rev, _id = 0;
+    var remove_last = false;
 
-    function titlebar(val) {
-        var msg = "LemiProject";
-        var res = " ";
-        var speed = 1000;
-        var pos = val;
-
-        var le = msg.length;
-        if (rev == "fwd") {
-            if (pos < le) {
-                pos = pos + 1;
-                scroll = msg.substr(0, pos);
-                document.title = scroll;
-                timer = window.setTimeout("titlebar(" + pos + ")", speed);
-            } else {
-                rev = "bwd";
-                timer = window.setTimeout("titlebar(" + pos + ")", speed);
-            }
-        } else {
-            if (pos > 0) {
-                pos = pos - 1;
-                var ale = le - pos;
-                scrol = msg.substr(ale, le);
-                document.title = scrol;
-                timer = window.setTimeout("titlebar(" + pos + ")", speed);
-            } else {
-                rev = "fwd";
-                document.title = " ";
-                timer = window.setTimeout("titlebar(" + pos + ")", speed);
-            }
+    document.title = " ";
+    setInterval(() => {
+        if (remove_last){
+            document.title = document.title.slice(0, 0) + document.title.slice(1);
+            remove_last = false;
         }
-    }
-    titlebar(0);
+
+        if (_id == -1) {
+            _rev = 0;
+            _id = 0;
+        }
+
+        if (_id == _original_title.length)
+            _rev = 1;
+
+        var current_title = document.title;
+        var newtitle = _original_title;
+
+        if (_rev == 0){
+            newtitle = current_title + _original_title[_id];
+            _id += 1;
+        }
+        else {
+            newtitle = current_title.slice(0, _id) + current_title.slice(_id + 1);
+            _id -= 1;
+        }
+        console.log("Applying title: " + newtitle);
+
+        if (newtitle.length != 0) {
+            document.title = newtitle;
+        }
+        else {
+            document.title = _original_title[0];
+            remove_last = true;
+        }
+    }, animation_speed);
 }
 
 function initializeAudio() {
     var music = document.getElementById("bgmusic");
-    music.volume = 0.05;
+    music.volume = 0.005;
     music.play();
 }
 
@@ -64,12 +70,12 @@ function infinityTyper() {
     "By people for people",
     "Only free (joke)",
     "Donate pls :/",
-    "Our users is best",
+    "Our users the best",
     "Ok dude",
     "Be happy",
     "I love you ;)",
     "voidptr_t on top",
-    "yep, it`s from meth",
+    "yep, this line from meth",
     "TOD - Time Machine",
     "coder is retard",
     "why you read this?",
@@ -126,16 +132,23 @@ function initializeElements() {
     </div>
     `;
     var loadDivEl = document.getElementById("loadDiv");
+    loadDivEl.parentNode.removeChild(document.getElementById("topDiv"));
     loadDivEl.parentNode.removeChild(loadDivEl);
     var newdiv = document.createElement("div");
     newdiv.innerHTML = siteContent;
     document.body.append(newdiv);
 }
 
+var is_initialized = false;
 function initialize(){
+    if (is_initialized)
+        return;
+
     initializeElements();
     initializeAudio();
-    initializeTitle();
+    initializeTitle(400);
     initializeBackground();
     infinityTyper();
+
+    is_initialized = true;
 }
