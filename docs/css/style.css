@@ -47,7 +47,6 @@ h1.typing {
   border-right: solid 3px rgba(0,255,0,.75);
   white-space: nowrap;
   overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
   font-size: 28px;
   color: rgba(255,255,255,.70);
   margin: 0 auto;
