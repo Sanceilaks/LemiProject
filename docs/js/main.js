@@ -119,11 +119,11 @@ function initializeElements() {
         <a href="https://github.com/Sanceilaks/LemiProject" class="btn fw-bold border-dark bg-dark text-white">Repo</a>
     </div>
     `;
-
     var loadDivEl = document.getElementById("loadDiv");
     loadDivEl.parentNode.removeChild(loadDivEl);
-
-    document.innerHTML = siteContent;
+    var newdiv = document.createElement("div");
+    newdiv.innerHTML = siteContent;
+    document.body.append(newdiv);
 }
 
 function initialize(){
