@@ -54,7 +54,9 @@ function initializeTitle() {
 }
 
 function initializeAudio() {
-    document.getElementById("bgmusic").volume = 0.05;
+    var music = document.getElementById("bgmusic");
+    music.volume = 0.05;
+    music.play();
 }
 
 function infinityTyper() {
