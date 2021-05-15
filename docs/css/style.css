@@ -48,10 +48,10 @@ h1.typing {
   white-space: nowrap;
   overflow: hidden;    
   font-size: 28px;
-  color: rgba(255,255,255,.70);
+  color: rgba(255,255,255);
   margin: 10 auto;
   animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
+             animated-cursor 600ms steps(25,end) infinite;
 }
 
 /* Animation */
@@ -66,6 +66,6 @@ h1.typing {
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
+  from{border-right-color: rgba(0,255,0);}
   to{border-right-color: transparent;}
 }
