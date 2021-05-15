@@ -68,7 +68,7 @@ function infinityTyper() {
     "I love you ;)"
     ];
     var rand = getRandomInt(typingContent.length);
-    var element = getElementById("typingElement");
+    var element = document.getElementById("typingElement");
     var typeWriter = new Typewriter(element, {loop: true});
     typeWriter.typeString(typingContent[rand]).pauseFor(6000).deleteAll().pauseFor(500).callFunction(() => {
         typeWriter.stop();
