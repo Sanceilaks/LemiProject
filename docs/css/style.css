@@ -59,7 +59,7 @@ h1.typing {
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 450px;}
+  to{width: 300px;}
 }
 
 /* cursor animations */
