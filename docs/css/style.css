@@ -50,7 +50,7 @@ h1.typing {
   font-size: 28px;
   color: rgba(255,255,255);
   margin: 10 auto;
-  animation: animated-text 4s steps(20,end) 1s 1 normal both,
+  animation: animated-text 4s steps(10,end) 1s 1 normal both,
              animated-cursor 600ms steps(20,end) infinite;
 }
 
