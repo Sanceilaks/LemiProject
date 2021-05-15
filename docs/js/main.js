@@ -66,8 +66,14 @@ function infinityTyper() {
     "Donate pls :/",
     "Our users is best",
     "Ok dude",
-    "If you see this - be happy",
-    "I love you ;)"
+    "Be happy",
+    "I love you ;)",
+    "voidptr_t on top",
+    "yep, it`s from meth",
+    "TOD - Time Machine",
+    "coder is retard",
+    "why you read this?",
+    "(void*(void*))(this);",
     ];
     var rand = getRandomInt(typingContent.length);
     var element = document.getElementById("typingElement");
