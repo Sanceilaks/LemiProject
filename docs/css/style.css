@@ -49,8 +49,12 @@ h1.typing {
   font-size: 28px;
   color: rgba(255,255,255);
   margin: 10 auto;
-  animation: animated-text 3s steps(100,end) 1s 1 normal both,
-             animated-cursor 600ms steps(100,end) infinite;
+
+}
+h1.typing
+{
+  animation: animated-text 3s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
 }
 
 /* Animation */
