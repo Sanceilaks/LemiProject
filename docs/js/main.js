@@ -56,7 +56,6 @@ function initializeTitle() {
 function initializeAudio() {
     var music = document.getElementById("bgmusic");
     music.volume = 0.05;
-    music.muted = true;
     music.play();
 }
 
