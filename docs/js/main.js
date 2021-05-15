@@ -64,7 +64,7 @@ function infinityTyper() {
     "By people for people",
     "Only free (joke)",
     "Donate pls :/",
-    "Our users is best",
+    "Our users are best",
     "Ok dude",
     "Be happy",
     "I love you ;)",
@@ -72,7 +72,7 @@ function infinityTyper() {
     "yep, it`s from meth",
     "TOD - Time Machine",
     "coder is retard",
-    "why you read this?",
+    "why you reading this?",
     "(void*(void*))(this);",
     ];
     var rand = getRandomInt(typingContent.length);
