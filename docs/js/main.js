@@ -68,7 +68,7 @@ function infinityTyper() {
     "Ok dude",
     "Be happy (•ω•)",
     "I love you ;)",
-    "voidptr_t on top 🏆",
+    "voidptr_t on top \u{1F3C6}",
     "yep, it`s from meth",
     "TOD - Time Machine",
     "coder is retard 🤖",
