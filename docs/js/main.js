@@ -83,7 +83,7 @@ function infinityTyper() {
         "Be happy",
         "I love you ;)",
         "voidptr_t is on top",
-        "yep, this line is meth",
+        "yep, this line is from meth",
         "TOD - Time Machine",
         "coder is retard",
         "why are you reading this?",
