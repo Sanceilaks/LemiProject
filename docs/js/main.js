@@ -47,8 +47,6 @@ function initializeTitle(animation_speed) {
             newtitle = current_title.slice(0, _id) + current_title.slice(_id + 1);
             _id -= 1;
         }
-        console.log("Applying title: " + newtitle);
-
         if (newtitle.length != 0) {
             document.title = newtitle;
         }
