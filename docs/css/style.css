@@ -43,7 +43,7 @@ img {
     margin: 10px;
 }
 h1.typing {
-  border-right: solid 9px rgba(0,255,0);
+  border-right: solid 3px rgba(0,255,0);
   white-space: nowrap;
   overflow: hidden;    
   font-size: 28px;
