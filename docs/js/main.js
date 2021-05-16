@@ -57,20 +57,70 @@ function initializeTitle(animation_speed) {
     }, animation_speed);
 }
 
-function initializeAudio() {
+let audioList = [
+    "content/LIDA - Girl is snus.mp3",
+    "content/Mayday Parade - Save Your Heart.mp3",
+    "content/The Strumbellas - Spirits.mp3",
+    "content/Theory of a Deadman - Time Machine.mp3"
+];
+
+var last_audio = ""; 
+
+function playAudio(a) {
+    function getFullName(audio) {
+        var out = audio.replace("content/", "");
+        out = out.replace(".mp3", "");
+        return out;
+    }
+    function setMusicTitle(audio) {
+        var label = document.getElementById("currentMusicLabel");
+        label.innerHTML = getFullName(audio);
+    }
     var music = document.getElementById("bgmusic");
-    music.volume = 0.005;
+
+    music.src = a;
+
+    music.load();
     music.play();
+
+    setMusicTitle(a);
+
+    last_audio = a;
+}
+
+function nextAudio() {
+    var next_id = getRandomInt(audioList.length);
+        var m = document.getElementById("bgmusic");
+
+    while (last_audio.endsWith(audioList[next_id]))
+        next_id = getRandomInt(audioList.length);
+
+    playAudio(audioList[next_id]);
 }
 
 function toggleAudio() {
     var music = document.getElementById("bgmusic");
+    var pauseButton = document.getElementById("pauseMusicButtonLabel");
 
-    if (music.paused)
-        music.play();
-    else
-        music.pause();
+    music.paused ? music.play() :  music.pause();
+    pauseButton.innerHTML = music.paused ? "Resume" : "Pause";
 }
+
+function audioVolumeChanged() {
+    var slider = document.getElementById("musicVolume");
+    var music = document.getElementById("bgmusic");
+
+    music.volume = slider.value / 1000;
+}
+
+function initializeAudio() {
+    var music = document.getElementById("bgmusic");
+    music.volume = 0.02;
+    music.onended = nextAudio;
+
+    playAudio(audioList[getRandomInt(audioList.length)]);
+}
+
 
 function infinityTyper() {
     let typingContent = [
@@ -147,9 +197,18 @@ function initializeElements() {
         <a href="https://github.com/Sanceilaks/LemiProject" class="btn fw-bold border-dark bg-dark text-white">Repo</a>
     </div>
 
-    <div onclick="toggleAudio();" class="bottom-right btn fw-bold border-dark bg-dark text-white">
-        <span>Music</span>
-    </div>    
+    <div class="bottom-right">
+        <h5 id="currentMusicLabel" class="text-white"></h5>
+        <h5 class="text-white">Volume: <input class="form-range" type="range" min="0" max="100" id="musicVolume" oninput="audioVolumeChanged();" value="20"></h5>
+
+        <div onclick="toggleAudio();" class="btn fw-bold border-dark bg-dark text-white" style="float: right;">
+            <span id="pauseMusicButtonLabel" >Pause</span>
+        </div>
+
+        <div onclick="nextAudio();" class="btn fw-bold border-dark bg-dark text-white" style="float: right; margin-right: 10px;">
+            <span>Next</span>
+        </div>
+    </div>
     `;
     var loadDivEl = document.getElementById("loadDiv");
     loadDivEl.parentNode.removeChild(document.getElementById("topDiv"));
