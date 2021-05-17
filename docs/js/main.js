@@ -144,7 +144,8 @@ function infinityTyper() {
         "may i go home?",
         "fat free!",
         "VAC free!",
-        "leather club is to blocks down",
+        "leather club is two blocks down",
+        "nice cock bro ngl",
         "fakeduck or truedick? hmm..."
     ];
     var rand = getRandomInt(typingContent.length);
