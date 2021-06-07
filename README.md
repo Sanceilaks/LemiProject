@@ -1,2 +1,2 @@
 # LemiProject
-Files for free LemiProject hacks
+Web and other files - for working with LemiProject
