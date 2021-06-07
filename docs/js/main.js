@@ -58,10 +58,7 @@ function initializeTitle(animation_speed) {
 }
 
 let audioList = [
-    "content/LIDA - Girl is snus.mp3",
-    "content/Mayday Parade - Save Your Heart.mp3",
-    "content/The Strumbellas - Spirits.mp3",
-    "content/Theory of a Deadman - Time Machine.mp3"
+    "content/1.mp3"
 ];
 
 var last_audio = ""; 
@@ -160,9 +157,8 @@ function infinityTyper() {
 function initializeElements() {
     let siteContent = `
     <div id="particles-js"></div>
-
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">LemiProject</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -173,43 +169,40 @@ function initializeElements() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link" aria-current="page" href="#">Главная</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="https://www.donationalerts.com/r/voidptr_t">DONATE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
     <main class="px-3 center-box text-center">
         <h1 id="typingElement"></h1>
         <p class="lead">
-        <a href="https://github.com/Sanceilaks/LemiProject/raw/main/lemi_project_loader.exe" class="btn btn-lg btn-secondary fw-bold border-dark bg-dark">Get</a>
+        <a href="https://github.com/Sanceilaks/LemiProject/raw/main/lemi_project_loader.exe" class="btn btn-lg btn-secondary fw-bold border-dark bg-dark">Download</a>
         </p>
     </main>
-
     <div class="git-button">
-        <a href="https://github.com/Sanceilaks/LemiProject" class="btn fw-bold border-dark bg-dark text-white">Repo</a>
+        <a href="https://github.com/Sanceilaks/LemiProject" class="btn fw-bold border-dark bg-dark text-white">Repository</a>
     </div>
-
     <div class="bottom-right">
         <h5 id="currentMusicLabel" class="text-white"></h5>
         <h5 class="text-white">Volume: <input class="form-range" type="range" min="0" max="100" id="musicVolume" oninput="audioVolumeChanged();" value="20"></h5>
-
         <div onclick="toggleAudio();" class="btn fw-bold border-dark bg-dark text-white" style="float: right;">
             <span id="pauseMusicButtonLabel" >Pause</span>
         </div>
-
         <div onclick="nextAudio();" class="btn fw-bold border-dark bg-dark text-white" style="float: right; margin-right: 10px;">
             <span>Next</span>
         </div>
     </div>
+        <footer class="footer page-footer font-small"> 
+        <div class="footer-copyright text-center py-2 text-white">©
+            <a href="https://sanceilaks.github.io/LemiProject/" style="text-decoration: none; color: #008f1d">LemiProject</a>
+        </div>
+    </footer>
     `;
     var loadDivEl = document.getElementById("loadDiv");
     loadDivEl.parentNode.removeChild(document.getElementById("topDiv"));
