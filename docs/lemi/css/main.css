@@ -95,6 +95,7 @@
   body {
     -webkit-font-smoothing: antialiased;
     background-color: #f4f7ff;
+    text-decoration: none;
   }
   
   .preloader__image {
@@ -105,7 +106,7 @@
     height: 64px;
     margin-top: -32px;
     margin-left: -32px;
-    background: url('../img/1.svg') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+    background: url('') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
   }
   
   .preloader__status {
@@ -1137,7 +1138,7 @@
   }
 
 .gay-suka{
-  top: 100px;
+  top: 140px;
   left: 48%;
   transform: translateY(0%) rotate(45deg);
   
@@ -1232,7 +1233,7 @@
     }
   }
   
-  .dyHMdF {
+    .dyHMdF {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 0;
@@ -1273,9 +1274,9 @@
     }
   }
   
-  @media screen and (min-width:1250px) {
+  @media screen and (min-width:100px) {
     .dyHMdF {
-      background-image: linear-gradient(to right, #042900 0%, #042900 20%, #042900 80%, #042900  100%), url(../../src/img/menu.png);
+      background-image: linear-gradient(to right, #151C28FF 0%, #151C2800 20%, #151C2800 80%, #151C28FF 100%);
     }
   }
   
@@ -1346,7 +1347,7 @@
   }
   
   .ecuiKZ {
-    background: linear-gradient(to bottom, #042900, #0d7801);
+    background: linear-gradient(to bottom, #192338, #161E2F);
   }
   
   .ggJhgf {
@@ -1539,7 +1540,7 @@
   
   @media screen and (min-width:820px) {
     .hHkZFY {
-      background: radial-gradient(circle at 60% 55%, rgba(4, 41, 0, 0.05) 0%, rgba(0, 0, 0, 0) 40%);
+     background: radial-gradient(circle at 60% 55%, rgba(0, 147, 255, 0.05) 0%, rgba(0, 0, 0, 0) 40%);
     }
   }
   
@@ -1681,7 +1682,7 @@
   }
   
   .gLwOLq {
-    background-color: #064000;
+    background-color: #192338;
   }
   
   .ibpipP {
@@ -3037,6 +3038,15 @@ header.masthead { background: no-repeat center center; background-color: rgb(0, 
     font-size: 20px;
     font-size: 20px;
   }
+
+    .cAAOrQ:hover {
+      transform: scale(1.1);
+  }
+  
+      .cAAOrQ:before {
+      transform: scale(1.1);
+  }
+
   
   .jasqsQ {
     margin-bottom: 8px;
@@ -3320,7 +3330,7 @@ header.masthead { background: no-repeat center center; background-color: rgb(0, 
   
   .iKiHWz {
     margin-bottom: 28px;
-    color: #EBF1F7;
+    color: linear-gradient(90deg, #6888ff 0%, #324589 100%);
     font-size: 48px;
     font-size: 48px;
     font-weight: 700;
@@ -3515,7 +3525,7 @@ header.masthead { background: no-repeat center center; background-color: rgb(0, 
   }
   
   .cMofLi {
-    background-image: linear-gradient(155deg, #0A84FF 10%, #0AF0FF 90%);
+    background-image: linear-gradient(90deg, #6888ff 0%, #324589 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
