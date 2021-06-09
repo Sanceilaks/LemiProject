@@ -1,7 +1,6 @@
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
-
 function initializeBackground() {
     VANTA.TOPOLOGY({
     el: "#particles-js",
@@ -15,7 +14,6 @@ function initializeBackground() {
     color: 0x009966
     })
 }
-
 function initializeTitle(animation_speed) {
     let _original_title = document.title;
     var _rev, _id = 0;
@@ -116,10 +114,75 @@ function initializeAudio() {
     playAudio(audioList[getRandomInt(audioList.length)]);
 }
 
+
 function infinityTyper() {
     let typingContent = [
         "Made by people for people",
-	@@ -147,9 +197,18 @@ function initializeElements() {
+        "Made by monke for people",
+        "Only free (joke)",
+        "Donate pls :/",
+        "Our users are the best",
+        "Ok dude",
+        "Be happy",
+        "I love you ;)",
+        "voidptr_t is on top",
+        "yep, this line is from meth",
+        "TOD - Time Machine",
+        "coder is retard",
+        "why are you reading this?",
+        "(void*(void*))(this);",
+        "XARAKTER - Drista",
+        "stop reading and download it",
+        "i don't want to write it",
+        "may i go home?",
+        "fat free!",
+        "VAC free!",
+        "leather club is to blocks down",
+        "fakeduck or truedick? hmm..."
+    ];
+    var rand = getRandomInt(typingContent.length);
+    var element = document.getElementById("typingElement");
+    var typeWriter = new Typewriter(element, {loop: true});
+    typeWriter.typeString(typingContent[rand]).pauseFor(6000).deleteAll().pauseFor(500).callFunction(() => {
+        typeWriter.stop();
+        infinityTyper();
+    }).start();
+}
+function initializeElements() {
+    let siteContent = `
+    <div id="particles-js"></div>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">LemiProject</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://www.donationalerts.com/r/voidptr_t">DONATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="px-3 center-box text-center">
+        <h1 id="typingElement"></h1>
+        <p class="lead">
+        <a href="https://github.com/Sanceilaks/LemiProject/raw/main/lemi_project_loader.exe" class="btn btn-lg btn-secondary fw-bold border-dark bg-dark">Get</a>
+        </p>
+    </main>
+    <div class="git-button">
         <a href="https://github.com/Sanceilaks/LemiProject" class="btn fw-bold border-dark bg-dark text-white">Repo</a>
     </div>
     <div class="bottom-right">
@@ -140,7 +203,6 @@ function infinityTyper() {
     newdiv.innerHTML = siteContent;
     document.body.append(newdiv);
 }
-
 var is_initialized = false;
 function initialize(){
     if (is_initialized)
