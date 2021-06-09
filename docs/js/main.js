@@ -118,7 +118,7 @@ function initializeAudio() {
 function infinityTyper() {
     let typingContent = [
         "Made by people for people",
-        "Made by monke for people",
+        "Made by monkey for people",
         "Only free (joke)",
         "Donate pls :/",
         "Our users are the best",
@@ -132,12 +132,12 @@ function infinityTyper() {
         "why are you reading this?",
         "(void*(void*))(this);",
         "XARAKTER - Drista",
-        "stop reading and download it",
+        "stop reading this and download it",
         "i don't want to write it",
         "may i go home?",
         "fat free!",
         "VAC free!",
-        "leather club is to blocks down",
+        "leather club is two blocks down",
         "fakeduck or truedick? hmm..."
     ];
     var rand = getRandomInt(typingContent.length);
