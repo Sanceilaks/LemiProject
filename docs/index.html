@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,26 +10,21 @@
     <title>LemiProject</title>
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <audio id="bgmusic" onplaying="" style="display: none;"></audio>
+    <audio id="bgmusic" src="https://github.com/Sanceilaks/LemiProject/raw/main/docs/content/music.mp3" loop onplaying="" style="display: none;"></audio>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
     <div id="topDiv" style="z-index: 1111; width: 100%; height: 100%; position: absolute; top: 0; left: 0;" onclick="initialize();"></div>
     <div id="loadDiv" class="center-box text-center">
         <div id="startButton">
-            <h1 id="hiddenOnloadText" style="display: none">Just click...</h1>
-            <script type="text/javascript">
-                window.addEventListener("load", function () {
-                    jQuery("#hiddenOnloadText").show(800);
-                });
-            </script>
+            <h1>Just click...</h1>
         </div>
     </div>
     <script src="js/main.js"></script>
