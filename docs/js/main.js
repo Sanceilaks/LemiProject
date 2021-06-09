@@ -1,6 +1,7 @@
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
+
 function initializeBackground() {
     VANTA.TOPOLOGY({
     el: "#particles-js",
@@ -14,6 +15,7 @@ function initializeBackground() {
     color: 0x009966
     })
 }
+
 function initializeTitle(animation_speed) {
     let _original_title = document.title;
     var _rev, _id = 0;
@@ -114,7 +116,6 @@ function initializeAudio() {
     playAudio(audioList[getRandomInt(audioList.length)]);
 }
 
-
 function infinityTyper() {
     let typingContent = [
         "Made by people for people",
@@ -139,6 +140,7 @@ function infinityTyper() {
     newdiv.innerHTML = siteContent;
     document.body.append(newdiv);
 }
+
 var is_initialized = false;
 function initialize(){
     if (is_initialized)
