@@ -13,7 +13,7 @@
     <Name>Glua loader x64</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/lemi_lua_loader.dll</Url>
     <DevlogUrl>https://raw.githubusercontent.com/Sanceilaks/LemiProject/main/devlog.txt</DevlogUrl>
-    <GameProcess>hl2.exe</GameProcess>
+    <GameProcess>gmod.exe</GameProcess>
     <Version>1.0</Version>
   </Hack>
   <Hack>
