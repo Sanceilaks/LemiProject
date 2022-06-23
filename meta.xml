@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <ArrayOfHack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Hack>
+    <Id>1</Id>
     <Method>1</Method>
     <Name>LemiGMOD</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/lemi_gmod_revolution.dll</Url>
@@ -9,6 +10,7 @@
     <Version>beta</Version>
   </Hack>
   <Hack>
+    <Id>2</Id>
     <Method>1</Method>
     <Name>Glua loader x64</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/lemi_lua_loader.dll</Url>
@@ -17,6 +19,7 @@
     <Version>1.0</Version>
   </Hack>
   <Hack>
+    <Id>3</Id>
     <Method>1</Method>
     <Name>LemiCSGO</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/LemiCSGO.dll</Url>
@@ -25,6 +28,7 @@
     <Version>beta</Version>
   </Hack>
   <Hack>
+    <Id>4</Id>
     <Method>1</Method>
     <Name>OTCv3</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/otv3.dll</Url>
@@ -33,6 +37,7 @@
     <Version>1.0</Version>
   </Hack>
   <Hack>
+    <Id>5</Id>
     <Method>1</Method>
     <Name>OTCv2</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/otcv2.dll</Url>
@@ -41,6 +46,7 @@
     <Version>1.0</Version>
   </Hack>
   <Hack>
+    <Id>6</Id>
     <Method>1</Method>
     <Name>Pandora</Name>
     <Url>https://github.com/Sanceilaks/LemiProject/raw/main/pandora.dll</Url>
